@@ -1,3 +1,5 @@
 8
 10
 *.pkg
+*.dmg
+*-pkg-expanded
