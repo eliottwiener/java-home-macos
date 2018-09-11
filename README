@@ -1,2 +1,13 @@
-Build JAVA_HOMEs on macOS with make.
-Required input .pkg can be found in the .dmg files provided by Oracle.
+Oracle provides JDKs in dmg files for macOS.
+These dmg files contain pkg installers.
+Unfortunately, these installers do not let you choose where your JDK is installed.
+The provided Makefile is set up to extract JAVA_HOME-ready directories from the dmg files.
+
+The procedure for doing this is basically:
+
+1. Mount the dmg
+2. Copy the pkg from inside the dmg
+3. Extract the pkg
+4. Copy the home directory from the extracted pkg
+
+You must download the expected dmg files, and place them within this directory.
