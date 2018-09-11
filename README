@@ -1,17 +1,19 @@
 Extract JAVA_HOME-ready directories from Oracle JDK dmg files.
 
 Why:
-Oracle provides JDKs in dmg files for macOS.
+Oracle provides some JDKs in dmg files for macOS.
 These dmg files contain pkg installers.
-Unfortunately, these installers do not let you choose where your JDK is installed.
+Unfortunately, these installers do not let you choose where the JDK is installed on the system.
 This Makefile setup automates the extraction,
 and acts a functional reference of the extraction procedure.
 
-How:
+How the extraction is done:
 The procedure for doing this is basically...
 1. Mount the dmg
 2. Copy the pkg from inside the dmg
 3. Extract the pkg
 4. Copy the home directory from the extracted pkg
 
+Prerequisites:
 You must download the expected dmg files, and place them within this directory.
+The dmg files for JDK 8 Update 181 and JDK 10.0.2 can be found at http://www.oracle.com/technetwork/java/javase/downloads/index.html
