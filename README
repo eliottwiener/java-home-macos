@@ -1,0 +1,2 @@
+Build JAVA_HOMEs on macOS with make.
+Required input .pkg can be found in the .dmg files provided by Oracle.
