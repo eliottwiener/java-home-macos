@@ -1,4 +1,4 @@
-# Extract JAVA_HOME-ready directories from Oracle JDK dmg files
+# Extract JDK directories from Oracle JDK dmg files
 # Copyright (C) 2018  Eliott Wiener
 # 
 # This program is free software: you can redistribute it and/or modify
